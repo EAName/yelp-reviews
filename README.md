@@ -1,19 +1,19 @@
 # yelp-reviews
 
-Graduate capstone project using the Yelp Academic Dataset to identify drivers of low restaurant ratings and actionable levers for 1–3 star businesses to improve customer consideration and traffic.
+Graduate capstone project on production Yelp business and review data to identify drivers of low restaurant ratings and actionable levers for 1–3 star businesses to improve customer consideration and traffic.
 
 ---
 
 ## 1. Title and Summary
 
 **Yelp Reviews Capstone**  
-Northwestern University M.S. in Data Science: group capstone analyzing Yelp business, review, and user data end to end — from JSON ingestion and restaurant-focused cleaning through market-level EDA, supervised rating models, NLP on review text, and unsupervised segmentation — with a St. Louis market deep dive for operational recommendations.
+Northwestern University M.S. in Data Science: group capstone analyzing production-scale Yelp business, review, and user data end to end — from JSON ingestion and restaurant-focused cleaning through market-level EDA, supervised rating models, NLP on review text, and unsupervised segmentation — with a St. Louis market deep dive for operational recommendations.
 
 ---
 
 ## 2. Concepts and Methods
 
-- **Data ingestion:** convert Yelp Academic Dataset JSON lines to CSV for business, review, and user entities (`Yelp_Data_Converting_Review_Json_to_CSV.ipynb`, `Yelp_Data_Converting_User_Json_to_CSV.ipynb`, `Create_Reviews_CSV_Version_2.ipynb`, `Create_Clean_User_and_Review_CSV_Version_4.ipynb`)
+- **Data ingestion:** convert production Yelp JSON exports to CSV for business, review, and user entities (`Yelp_Data_Converting_Review_Json_to_CSV.ipynb`, `Yelp_Data_Converting_User_Json_to_CSV.ipynb`, `Create_Reviews_CSV_Version_2.ipynb`, `Create_Clean_User_and_Review_CSV_Version_4.ipynb`)
 - **Business dataset cleaning:** filter to restaurant categories; drop non-U.S. records; harmonize attributes and market fields (`Cleaning_Business_Dataset.ipynb`, `YelpBusinessClean5.ipynb`)
 - **Review–business integration:** merge review text with business metadata; tokenize and normalize review bodies for downstream NLP (`Create_Combined_Business_and_Review_File.ipynb`)
 - **Exploratory analysis:** state-to-market mapping; category and chain frequency profiling; star-rating distributions; interactive review dashboards (`Exploratory_Data_Analysis.ipynb`, `EDA_yelp_business.ipynb`, `EDA_Yelp_Business_Rabia.ipynb`, `EDA_yelp_business_cleaned_v4.ipynb`, `EDA_yelp_reviews_dashboard_v2.ipynb`)
@@ -27,7 +27,7 @@ Northwestern University M.S. in Data Science: group capstone analyzing Yelp busi
 
 **Business objective:** prioritize operational and service improvements for lower-tier (1–3 star) restaurants by combining attribute-based models with text-derived complaint themes
 
-**Data dependencies:** Yelp Academic Dataset JSON/CSV files are referenced from Google Drive/Colab paths and are not bundled in this repository
+**Data dependencies:** production Yelp JSON/CSV files are referenced from Google Drive/Colab paths and are not bundled in this repository
 
 ---
 
