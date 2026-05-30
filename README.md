@@ -7,7 +7,7 @@ Graduate capstone project on production Yelp business and review data to identif
 ## 1. Title and Summary
 
 **Yelp Reviews Capstone**  
-Northwestern University M.S. in Data Science: group capstone analyzing production-scale Yelp business, review, and user data end to end — from JSON ingestion and restaurant-focused cleaning through market-level EDA, supervised rating models, NLP on review text, and unsupervised segmentation — with a St. Louis market deep dive for operational recommendations.
+Northwestern University M.S. in Data Science, Data Engineering specialization: capstone project analyzing production-scale Yelp business, review, and user data end to end — from JSON ingestion and restaurant-focused cleaning through market-level EDA, supervised rating models, NLP on review text, and unsupervised segmentation — with a St. Louis market deep dive for operational recommendations.
 
 ---
 
@@ -91,5 +91,5 @@ yelp-reviews/
 
 ---
 
-**Course context:** Northwestern University, M.S. in Data Science, Data Engineering specialization (group capstone)  
+**Course context:** Northwestern University, M.S. in Data Science, Data Engineering specialization (capstone)  
 **Repository:** https://github.com/EAName/yelp-reviews
