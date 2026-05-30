@@ -91,5 +91,5 @@ yelp-reviews/
 
 ---
 
-**Course context:** Northwestern University, M.S. in Data Science — graduate capstone project  
+**Course context:** Northwestern University, M.S. in Data Science, Data Engineering specialization (group capstone)  
 **Repository:** https://github.com/EAName/yelp-reviews
